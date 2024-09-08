@@ -1,0 +1,79 @@
+@font-face {
+font-family:'Kanit' ;
+src: url(fonte/Kanit/Kanit-Bold.ttf);
+}
+#pag1{
+    font-size: 40px;
+   font-family: Arial;
+}
+#pag2{
+    font-size: 40px;
+    font-family: Arial;
+}
+#cuerpob{
+    background-color: purple;
+}
+#pag1 img{
+    height: 300px;
+    width: 300px;
+    margin-top: -4%;
+}
+#pag2 img{
+    height: 300px;
+    width: 300px;
+    margin-top: -5%;
+}
+.conj1{
+    display: inline-flex;
+}
+.conj2{
+    display: inline-flex;
+}
+button{
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+    font-family: Arial;
+    font-size: 40px;
+}
+.comenza{
+    margin-top: 20%;
+    margin-left:  40%;
+    font-family: 'Kanit' ;font-weight:bold;
+}
+.comenza1{
+    margin-top: 20%;
+    margin-left:  -5%;
+    font-family: 'Kanit' ;font-weight:bold;
+}
+
+video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Asegura que el video quede detrás del contenido */
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.final{
+    margin-left: -20%;
+}
+.todaa{
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima del video */
+    color: white;
+    padding: 20px;
+    margin-left: 40%;
+}
